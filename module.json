@@ -1,0 +1,45 @@
+{
+  "name": "RickysHomebrewCollection",
+  "title": "Ricky's Homebrew Collection'",
+  "description": "A collection of cool homebrew classes and feats",
+  "author": "Ricky",
+  "version": "1.0.1",
+  "minimumCoreVersion": "9.0",
+  "compatibleCoreVersion": "9.249",
+  "packs": [
+    {
+      "name": "Ricky's Homebrew Classes",
+      "label": "Ricky's Homebrew Classes",
+      "system": "dnd5e",
+      "path": "packs/rickys-homebrew-classes.db",
+      "entity": "Item",
+      "module": "RickysHomebrewCollection"
+    },
+    {
+      "name": "Ricky's Homebrew Class Features",
+      "label": "Ricky's Homebrew Class Features",
+      "system": "dnd5e",
+      "path": "packs/rickys-homebrew-class-features.db",
+      "entity": "Item",
+      "module": "RickysHomebrewCollection"
+    },
+    {
+      "name": "Ricky's Homebrew Feats",
+      "label": "Ricky's Homebrew Feats",
+      "system": "dnd5e",
+      "path": "packs/rickys-homebrew-feats.db",
+      "entity": "Item",
+      "module": "RickysHomebrewCollection"
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "dae",
+      "manifest": "https://gitlab.com/tposney/dae"
+    },
+    {
+      "name": "dnd5e",
+      "type": "system"
+    }
+  ]
+}
