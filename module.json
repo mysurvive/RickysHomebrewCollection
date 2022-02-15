@@ -41,5 +41,8 @@
       "name": "dnd5e",
       "type": "system"
     }
-  ]
+  ],
+  "url": "https://github.com/mysurvive/CPRED.git",
+  "manifest": "https://raw.githubusercontent.com/mysurvive/CPRED/main/module.json",
+  "download": "https://github.com/mysurvive/CPRED/archive/main.zip"
 }
